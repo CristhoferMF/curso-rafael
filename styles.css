@@ -1,0 +1,62 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #9b7fa6;
+}
+
+.content{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.numero{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.nombre{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.row{
+    display: flex;
+}
+
+.col-1{
+    color: white;
+    position: relative;
+    width: 50%;
+}
+
+.col-1 img {
+    margin-left: 120px;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.altura-peso{
+    position: absolute;
+    bottom: 40%;
+    font-size: 18px;
+}
+
+.iconos{
+    display: flex;
+}
+
+.iconos .icono{
+    height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 100%;
+    text-align: center;
+    margin: 5px;
+}
